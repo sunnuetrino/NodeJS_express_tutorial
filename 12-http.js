@@ -17,3 +17,32 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(5000)
+
+/* // local depedency
+console.log('first')
+
+setTimeout(() => {
+    console.log('second')
+}, 1000)
+
+console.log('third')
+
+setInterval(() => {
+    console.log('hello world')
+}, 2000)
+
+console.log('I will run first')
+
+ */
+
+/* const http = require('http')
+
+const server = http.createServer((req, res) => {
+    console.log('request event')
+    res.end('hello world')
+
+})
+
+server.listen(5000, () => {
+    console.log('server listening on port 5000')
+}) */
